@@ -5,7 +5,7 @@
 # version: 0.0.1
 # authors: Sharif Nada
 # url: https://github.com/ATB-UQ/discourse-custom-embed
-# required_version: 3.1.0
+# required_version: 2.7.0
 
 after_initialize do
     ::EmbedController.prepend_view_path File.expand_path("../custom_views", __FILE__)
