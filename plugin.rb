@@ -8,5 +8,5 @@
 # required_version: 2.7.0
 
 after_initialize do
-    ::EmbedController.prepend_view_path File.expand_path("../custom_views", __FILE__)
-  end
+  ::EmbedController.prepend_view_path File.expand_path("../custom_views", __FILE__)
+end
